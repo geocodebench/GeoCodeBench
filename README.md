@@ -1,6 +1,6 @@
 # GeoCodeBench
 
-[arXiv](https://arxiv.org/abs/2604.1234) [Project Page](https://geocodebench.github.io/)
+[![arXiv](https://img.shields.io/badge/arXiv-2604.xxxx-b31b1b.svg)](https://arxiv.org/abs/2604.xxxx) [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://geocodebench.github.io/)
 
 [CVPR 2026] Benchmarking PhD-Level Coding in 3D Geometric Computer Vision
 
