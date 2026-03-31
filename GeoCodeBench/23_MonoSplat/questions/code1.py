@@ -1,0 +1,22 @@
+from jaxtyping import Float
+from torch import Tensor
+
+
+def relative_disparity_to_depth(
+    relative_disparity: Float[Tensor, "*#batch"],
+    near: Float[Tensor, "*#batch"],
+    far: Float[Tensor, "*#batch"],
+    eps: float = 1e-10,
+) -> Float[Tensor, " *batch"]:
+    """Convert relative disparity, where 0 is near and 1 is far, to depth."""
+    ****EMPTY****
+
+
+def depth_to_relative_disparity(
+    depth: Float[Tensor, "*#batch"],
+    near: Float[Tensor, "*#batch"],
+    far: Float[Tensor, "*#batch"],
+    eps: float = 1e-10,
+) -> Float[Tensor, " *batch"]:
+    """Convert depth to relative disparity, where 0 is near and 1 is far"""
+    ****EMPTY****

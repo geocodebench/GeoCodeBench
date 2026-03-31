@@ -1,0 +1,101 @@
+repo_name,unittest_index,Source,Question Type
+01_UVGS,1,CVPR 2025,Geometric Transformations
+01_UVGS,2,CVPR 2025,Mechanics/Optics Formulation
+02_3dgut,1,CVPR 2025,Mechanics/Optics Formulation
+03_OmniSplat,1,CVPR 2025,Geometric Logic Routing
+03_OmniSplat,2,CVPR 2025,Novel Algorithm Implementation
+04_IRGS,1,CVPR 2025,Geometric Transformations
+05_splatter360,1,CVPR 2025,Novel Algorithm Implementation
+05_splatter360,2,CVPR 2025,Novel Algorithm Implementation
+05_splatter360,3,CVPR 2025,Geometric Transformations
+06_IncEventGs,1,CVPR 2025,Mechanics/Optics Formulation
+06_IncEventGs,2,CVPR 2025,Mechanics/Optics Formulation
+06_IncEventGs,3,CVPR 2025,Novel Algorithm Implementation
+07_LPM,1,CVPR 2025,Mechanics/Optics Formulation
+07_LPM,2,CVPR 2025,Mechanics/Optics Formulation
+08_DOFGS,1,CVPR 2025,Mechanics/Optics Formulation
+09_4DGS-SLAM,1,ICCV 2025,Mechanics/Optics Formulation
+09_4DGS-SLAM,2,ICCV 2025,Mechanics/Optics Formulation
+09_4DGS-SLAM,3,ICCV 2025,Mechanics/Optics Formulation
+10_CoMoGaussian,1,ICCV 2025,Novel Algorithm Implementation
+10_CoMoGaussian,2,ICCV 2025,Geometric Transformations
+10_CoMoGaussian,3,ICCV 2025,Novel Algorithm Implementation
+11_Curve-AwareGaussian,1,ICCV 2025,Mechanics/Optics Formulation
+11_Curve-AwareGaussian,2,ICCV 2025,Mechanics/Optics Formulation
+11_Curve-AwareGaussian,3,ICCV 2025,Novel Algorithm Implementation
+12_Discretized-SDF,1,ICCV 2025,Mechanics/Optics Formulation
+13_Instant-GI,1,ICCV 2025,Geometric Logic Routing
+14_DeGauss,1,ICCV 2025,Novel Algorithm Implementation
+14_DeGauss,2,ICCV 2025,Geometric Logic Routing
+15_GeoSplatting,1,ICCV 2025,Novel Algorithm Implementation
+15_GeoSplatting,2,ICCV 2025,Mechanics/Optics Formulation
+16_RegGs,1,ICCV 2025,Novel Algorithm Implementation
+16_RegGs,2,ICCV 2025,Novel Algorithm Implementation
+16_RegGs,3,ICCV 2025,Mechanics/Optics Formulation
+17_DashGaussian,1,CVPR 2025,Geometric Logic Routing
+17_DashGaussian,2,CVPR 2025,Novel Algorithm Implementation
+17_DashGaussian,3,CVPR 2025,Geometric Logic Routing
+18_guidedvd-3dgs,1,CVPR 2025,Geometric Transformations
+18_guidedvd-3dgs,2,CVPR 2025,Geometric Logic Routing
+18_guidedvd-3dgs,3,CVPR 2025,Geometric Logic Routing
+18_guidedvd-3dgs,4,CVPR 2025,Novel Algorithm Implementation
+19_Self-Cali-Gs,1,ICCV 2025,Mechanics/Optics Formulation
+19_Self-Cali-Gs,2,ICCV 2025,Geometric Logic Routing
+19_Self-Cali-Gs,3,ICCV 2025,Novel Algorithm Implementation
+19_Self-Cali-Gs,4,ICCV 2025,Geometric Logic Routing
+20_ludvig,1,ICCV 2025,Novel Algorithm Implementation
+21_PolGs,1,ICCV 2025,Mechanics/Optics Formulation
+21_PolGs,2,ICCV 2025,Geometric Transformations
+21_PolGs,3,ICCV 2025,Geometric Logic Routing
+21_PolGs,4,ICCV 2025,Novel Algorithm Implementation
+22_FlexGs,1,CVPR 2025,Novel Algorithm Implementation
+23_MonoSplat,1,CVPR 2025,Mechanics/Optics Formulation
+24_HOGS,1,CVPR 2025,Geometric Transformations
+25_Sparse2DGS,1,CVPR 2025,Geometric Transformations
+25_Sparse2DGS,2,CVPR 2025,Geometric Transformations
+25_Sparse2DGS,3,CVPR 2025,Mechanics/Optics Formulation
+26_TsSplat,1,ICLR 2025,Mechanics/Optics Formulation
+26_TsSplat,2,ICLR 2025,Geometric Transformations
+26_TsSplat,3,ICLR 2025,Mechanics/Optics Formulation
+27_Ref-Gaussian,1,ICLR 2025,Mechanics/Optics Formulation
+27_Ref-Gaussian,2,ICLR 2025,Mechanics/Optics Formulation
+27_Ref-Gaussian,3,ICLR 2025,Mechanics/Optics Formulation
+27_Ref-Gaussian,4,ICLR 2025,Mechanics/Optics Formulation
+28_FCGS,1,ICLR 2025,Novel Algorithm Implementation
+29_Surfhead,1,ICLR 2025,Mechanics/Optics Formulation
+29_Surfhead,2,ICLR 2025,Mechanics/Optics Formulation
+29_Surfhead,3,ICLR 2025,Novel Algorithm Implementation
+29_Surfhead,4,ICLR 2025,Novel Algorithm Implementation
+30_ProbPose,1,CVPR 2025,Novel Algorithm Implementation
+30_ProbPose,2,CVPR 2025,Novel Algorithm Implementation
+30_ProbPose,3,CVPR 2025,Novel Algorithm Implementation
+31_neural-radiance-caching,1,CVPR 2025,Geometric Logic Routing
+32_FluidNexus,1,CVPR 2025,Mechanics/Optics Formulation
+32_FluidNexus,2,CVPR 2025,Mechanics/Optics Formulation
+32_FluidNexus,3,CVPR 2025,Geometric Transformations
+33_threeview,1,CVPR 2025,Geometric Transformations
+34_3D-GSW,1,CVPR 2025,Novel Algorithm Implementation
+35_CRISP,1,CVPR 2025,Geometric Transformations
+35_CRISP,2,CVPR 2025,Geometric Transformations
+35_CRISP,3,CVPR 2025,Novel Algorithm Implementation
+35_CRISP,4,CVPR 2025,Novel Algorithm Implementation
+36_MadPose,1,CVPR 2025,Geometric Transformations
+36_MadPose,2,CVPR 2025,Geometric Transformations
+36_MadPose,3,CVPR 2025,Geometric Transformations
+37_Geometry-in-Style,1,CVPR 2025,Geometric Transformations
+37_Geometry-in-Style,2,CVPR 2025,Novel Algorithm Implementation
+38_Simulator-HC,1,CVPR 2025,Geometric Transformations
+39_GO-N3RDet,1,CVPR 2025,Mechanics/Optics Formulation
+40_UnMix-NeRF,1,ICCV 2025,Novel Algorithm Implementation
+41_WildGS-SLAM,1,CVPR 2025,Geometric Transformations
+41_WildGS-SLAM,2,CVPR 2025,Novel Algorithm Implementation
+42_MASt3R-SLAM,1,CVPR 2025,Geometric Transformations
+43_S4M,1,ICCV 2025,Novel Algorithm Implementation
+43_S4M,2,ICCV 2025,Novel Algorithm Implementation
+44_forecasting-rotational-dynamics,1,ICCV 2025,Geometric Transformations
+44_forecasting-rotational-dynamics,2,ICCV 2025,Geometric Transformations
+45_easy3d,1,ICCV 2025,Novel Algorithm Implementation
+46_zmsf,1,CVPR 2025,Geometric Transformations
+46_zmsf,2,CVPR 2025,Mechanics/Optics Formulation
+47_DNF,1,CVPR 2025,Novel Algorithm Implementation
+47_DNF,2,CVPR 2025,Novel Algorithm Implementation
