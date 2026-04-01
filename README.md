@@ -1,6 +1,6 @@
 # GeoCodeBench
 
-[![arXiv](https://img.shields.io/badge/arXiv-2604.xxxx-b31b1b.svg)](https://arxiv.org/abs/2604.xxxx) [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://geocodebench.github.io/)
+[![arXiv](https://img.shields.io/badge/arXiv-2603.30038-b31b1b.svg)](https://arxiv.org/abs/2603.30038) [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://geocodebench.github.io/)
 
 [CVPR 2026] Benchmarking PhD-Level Coding in 3D Geometric Computer Vision
 
@@ -137,8 +137,11 @@ python3 unittest_summary_by_type.py
 If GeoCodeBench helps your research, please cite:
 
 ```bibtex
-@misc{geocodebench2026,
-  todo
+@article{li2026benchmarking,
+  title={Benchmarking PhD-Level Coding in 3D Geometric Computer Vision}, 
+  author={Wenyi, Li and Renkai, Luo and Yue, Yu and Huan-ang, Gao and Mingju, Gao and Li, Yuan and Chaoyou, Fu and Hao, Zhao},
+  journal={arXiv preprint arXiv:2603.30038},
+  year={2026},
 }
 ```
 
