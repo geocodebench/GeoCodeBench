@@ -1,0 +1,9 @@
+.env
+
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
