@@ -51,7 +51,7 @@ The benchmark organizes coding tasks into a two-level capability hierarchy:
 
 ### 1. Environment setup
 
-#### 1.1 Conda environment
+#### 1.1 Create the conda environment
 
 Create and activate the environment :
 
@@ -60,9 +60,35 @@ conda env create -f environment.yml
 conda activate geocodebench
 ```
 
+#### 1.2 Install PyTorch and torch extensions
 
-#### 1.2 LLM API Setup
+```bash
+python -m pip install torch==2.6.0 torchvision==0.21.0 \
+  --index-url https://download.pytorch.org/whl/cu124
+```
 
+```bash
+python -m pip install torch-scatter==2.1.2+pt26cu124 \
+  torch-cluster==1.6.3+pt26cu124 \
+  -f https://data.pyg.org/whl/torch-2.6.0+cu124.html
+```
+
+#### 1.3 Install other pip dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+#### 1.4 Install PyTorch3D 
+
+```bash
+python -m pip install --no-build-isolation \
+  "git+https://github.com/facebookresearch/pytorch3d.git"
+```
+
+
+### 2. Generate LLM Answers
+#### 2.1 LLM API Setup
 
 Create `.env` from `.env.example`:
 
@@ -72,7 +98,7 @@ cp .env.example .env
 
 Set `LLM_API_KEY` and `LLM_BASE_URL`
 
-### 2. Generate LLM Answers
+#### 2.2 Answer Generation
 
 Use the provided script:
 
