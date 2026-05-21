@@ -120,7 +120,7 @@ def main() -> None:
     output_path = args.output
     if output_path is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_path = f"{timestamp}_implementation_avg_pass_rate.csv"
+        output_path = Path(f"{timestamp}_implementation_avg_pass_rate.csv")
     else:
         output_path = output_path.resolve()
 

@@ -23,8 +23,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--root",
         type=Path,
-        default=Path(__file__).resolve().parent,
-        help="Workspace root directory to scan (default: script directory).",
+        default="./GeoCodeBench",
+        help="Workspace root directory to scan (default: ./GeoCodeBench).",
     )
     parser.add_argument(
         "--output",
@@ -32,7 +32,7 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help=(
             "Output CSV path (default: <timestamp>_implementation_avg_pass_rate_by_"
-            "question_type.csv under root)."
+            "question_type.csv in the current directory)."
         ),
     )
     parser.add_argument(
@@ -218,7 +218,7 @@ def main() -> None:
 
     if args.output is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_path = root / f"{timestamp}_implementation_avg_pass_rate_by_question_type.csv"
+        output_path = Path(f"{timestamp}_implementation_avg_pass_rate_by_question_type.csv")
     else:
         output_path = args.output.resolve()
     write_csv(rows, question_types, output_path)
